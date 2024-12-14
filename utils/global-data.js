@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Zeon AI';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'All rights reserved';
 
   return {
     name,
